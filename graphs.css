@@ -1,0 +1,81 @@
+#tooltip.hidden
+{
+    display:none;
+}
+#tooltip
+{
+    position:absolute;
+    width:120px;
+    height:auto;
+    padding: 10px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,4);
+    pointer-events:none;
+}
+#top{
+    text-align: center;
+    width:auto;
+    height:110;
+    background-color:deepskyblue;
+    padding: 10 10 10 10;
+    font-size:20;
+    
+}
+#tooltip2{
+     position:absolute;
+    width:120px;
+    height:auto;
+    padding: 10px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,4);
+    pointer-events:none;
+}
+#tooltip2.hidden1{
+    display: none
+}
+#tooltip3{
+     position:absolute;
+    width:120px;
+    height:auto;
+    padding: 10px;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,4);
+    pointer-events:none;
+}
+#tooltip3.hidden2{
+    display: none
+}
+table, th, td{
+    font-size:12;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table1{
+    float:left;
+    clear:left;
+    padding: 25 10 10 80
+}
+#table2{
+    float:right;
+    clear:right;
+    padding: 25 80 10 10
+}
+table{
+    width:auto;
+    height:250
+}
+#scatterPlot{
+    float:left
+}
+#barChart{
+    float:left
+}
+#barChart2{
+    float:left
+}
+#p{
+    margin: 775 80 10 80
+}

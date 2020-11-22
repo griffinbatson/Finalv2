@@ -1,0 +1,139 @@
+<html>
+<head>
+    <link rel="stylesheet" href="graphs.css">
+<script src="https://d3js.org/d3.v5.min.js"></script> 
+<script src="graphs.js"></script>
+
+    </head>
+    <body>
+   <div id="top">
+        <h1>How Region Affects Income and Poverty in the United States</h1>
+    </div>
+        
+        <div id="scatterPlot">
+        <div class="hidden" id="tooltip">
+            <div id="unemployment1"></div>
+            <div id="year"></div>
+            </div></div>   
+        
+        <div id="barChart">
+        <div class="hidden1" id="tooltip2">
+            <div id="incomes1"></div>
+            <div id="code1"></div>
+            </div></div>
+        
+        <div id="barChart2">
+        <div class="hidden2" id="tooltip3">
+            <div id="unemployment2"></div>
+            <div id="code2"></div>
+            </div></div>
+   
+    <div id=table1>
+         <table>
+         <tr>
+             <td>Urban Influence Code</td>
+             <td>Description</td>
+             </tr>
+        <tr>
+             <td>1</td>
+             <td>In large metro area of 1+ million residents</td>
+             </tr>
+        <tr>
+             <td>2</td>
+             <td>In small metro areas of less than 1 million residents</td>
+             </tr>
+       <tr>
+             <td>3</td>
+             <td>Micropolitan area adjacent to large metro area</td>
+             </tr>
+       <tr>
+             <td>4</td>
+             <td>Noncore adjacent to large metro area</td>
+             </tr>
+       <tr>
+             <td>5</td>
+             <td>Micropolitan area adjacent to small metro area</td>
+             </tr>
+       <tr>
+             <td>6</td>
+             <td>Noncore adjacent to small metro area and contains a town of at least 2,500 residents</td>
+             </tr>
+       <tr>
+             <td>7</td>
+             <td>Noncore adjacent to small metro area and does not contain a town of at least 2,500 residents</td>
+             </tr>
+       <tr>
+             <td>8</td>
+             <td>Micropolitan area not adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>9</td>
+             <td>Noncore adjacent to micro area and contains a town of at least 2,500 residents</td>
+             </tr>
+       <tr>
+             <td>10</td>
+             <td>Noncore adjacent to micro area and does not contain a town of at least 2,500 residents</td>
+             </tr>
+       <tr>
+             <td>11</td>
+             <td>Noncore not adjacent to metro or micro area and contains a town of at least 2,500 residents</td>
+             </tr>
+       <tr>
+             <td>12</td>
+             <td>Noncore not adjacent to metro or micro area and does not contain a town of at least 2,500 residents</td>
+             </tr>
+             
+         </table>
+        </div>
+    <div id=table2>
+         <table>
+         <tr>
+             <td>Rural-urban Continuum Code</td>
+             <td>Description</td>
+             </tr>
+        <tr>
+             <td>1</td>
+             <td>Counties in metro areas of 1 million population or more</td>
+             </tr>
+        <tr>
+             <td>2</td>
+             <td>Counties in metro areas of 250,000 to 1 million population</td>
+             </tr>
+       <tr>
+             <td>3</td>
+             <td>Counties in metro areas of fewer than 250,000 population</td>
+             </tr>
+       <tr>
+             <td>4</td>
+             <td>Urban population of 20,000 or more, adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>5</td>
+             <td>Urban population of 20,000 or more, not adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>6</td>
+             <td>Urban population of 2,500 to 19,999, adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>7</td>
+             <td>Urban population of 2,500 to 19,999, not adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>8</td>
+             <td>Completely rural or less than 2,500 urban population, adjacent to a metro area</td>
+             </tr>
+       <tr>
+             <td>9</td>
+             <td>Completely rural or less than 2,500 urban population, not adjacent to a metro area</td>
+             </tr>
+            </table>
+        </div>
+    
+        <div id="p">
+            <hr><br>
+    <p1 id="hypothesis">The above data is taken from the USDA Economic Research Service. There are multiple ways to describe counties as urban, rural, metro, and nonmetro. The two tables provide a key to read the bar charts. The scatter plot on the far left shows percent unemployment since the turn of the century. Prior to the recession of 2008, unemployment was higher in nonmetro counties. However, since then, unemployment has been higher in metro counties until just last year. The middle chart shows median income for last year from the most urban to most rural counties. Clearly, income is highest in the most urban areas, with a general decreasing trend as the chart reaches the most rural areas. The bar chart on the right shows unemployment percentages for last year with a different scale for categorizing counties. Unemployment is the lowest in urban areas, with a rough increasing trend as the chart reaches more rural areas. <br><br>
+    This data is intruiging, and there are clearly many possible explanations. The most likely is that, due to higher population density, there is more job availability in urban counties. In addition, living in a city is much more expensive, and in order for this to be sustainable, salaries need to be higher. In terms of recovery following the recession, it seems as though metro areas took longer to bounce back because cities are the economic powerhouses of this country and were hit the hardest. The trends consistently show that although rural counties face higher unemployment and lower salaries, they are more equipped to respond to economic harship.</p1>
+        </div>
+    </body>
+</html>
